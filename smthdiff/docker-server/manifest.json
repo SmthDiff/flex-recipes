@@ -1,0 +1,32 @@
+{
+  "copy-from-recipe": {
+    "assets/.docker": "/.docker",
+    "assets/docker-compose.yml": "/docker-compose.yml"
+  },
+  "env": {
+    "PROJECT_ROOT": "/var/www/html",
+    "DOC_ROOT": "/var/www/html/public",
+    "NGINX_PORT_HOST": "80",
+    "APACHE_PORT_HOST": "7080",
+    "PHP_VERSION": "7.3",
+    "PHP_DEVELOPMENT": "1",
+    "PHP_XDEBUG_KEY": "PHPSTORM",
+    "MYSQL_VERSION": "5.7",
+    "MYSQL_HOST": "mysql",
+    "MYSQL_PORT_HOST": "3306",
+    "MYSQL_DATABASE": "project",
+    "MYSQL_ROOT_USER": "root",
+    "MYSQL_ROOT_PASSWORD": "root",
+    "MYSQL_USER": "project",
+    "MYSQL_PASSWORD": "secret",
+    "NODE_VERSION": "lts",
+    "NODE_ENV": "development",
+    "MAILHOG_SMTP_PORT_HOST": "1025",
+    "MAILHOG_WEB_PORT_HOST": "8025"
+  },
+  "gitignore": [
+    "/.env",
+    "/.docker/*/data",
+    "/.docker/*/logs"
+  ]
+}

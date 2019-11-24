@@ -1,0 +1,15 @@
+<bg=blue;fg=white>           </>
+<bg=blue;fg=white> What now? </>
+<bg=blue;fg=white>           </>
+
+  * <fg=blue>Configure</> your server:
+    1. Change variables in .env
+    2. Change versions in .env
+    3. Remove or add Services in docker-compose.yml
+
+  * <fg=blue>Start</> your server:
+    1. Execute the <comment>docker-compose up -d</> command
+    2. Browse to the <comment>http://localhost/</> URL.
+
+  * <fg=blue>Stop</> your server:
+    1. Execute the <comment>docker-compose down</> command
